@@ -1,0 +1,25 @@
+
+
+.pagination_point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+
+  button {
+    cursor: pointer;
+    
+    width: 50px;
+    padding: 8px 0;
+    background-color: black;
+    color: white;
+    border: 0;
+
+  }
+
+  .next_dis {
+    cursor:no-drop;
+    color: gray;
+  }
+}

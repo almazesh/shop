@@ -1,0 +1,41 @@
+
+
+footer {
+  background-color: rgba(0,0,0,.9);
+  padding: 50px 0 150px 0;
+  margin-top: 150px;
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media (max-width:1024px) {
+      flex-wrap: wrap;
+      row-gap: 30px;
+    }
+
+    @media (max-width:425px) {
+      flex-direction: column;
+    }
+
+    ul {
+      h2 {
+        color: white;
+        cursor: pointer;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+      li {
+        line-height: 2;
+        a {
+          color: white;
+          opacity: .7;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+
+
+.cart_point {
+  margin-top: 50px;
+
+  h2 {
+    font-size: 1.5;
+    font-weight: 100;
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 20px;
+  }
+
+  .cart_inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .cart_defined {
+    margin-top: 40px;
+  }
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      cursor: pointer;
+      padding: 8px 5px;
+      background-color: black;
+      color: white;
+      border:0;
+
+    }
+  }
+}

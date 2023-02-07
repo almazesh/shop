@@ -1,0 +1,39 @@
+
+
+
+.slider_button {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  font-size: 3em;
+  background: none;
+  border:0;
+  top: 38%;
+  cursor: pointer;
+}
+
+
+.left {
+  left: -10%;
+  @media (max-width:1024px) {
+    color: white;
+    left: 3%;
+  }
+
+  @media (max-width:425px) {
+    left: 2%;
+    font-size: 30px;
+  }
+}
+
+.right {
+  right: -6%;
+  @media (max-width:1024px) {
+    color: white;
+    right: 6%;
+  }
+  @media (max-width:425px) {
+    right: 8%;
+    font-size: 30px;
+  }
+}
